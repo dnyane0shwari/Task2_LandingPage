@@ -1,0 +1,123 @@
+body
+{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eae4e4;
+    color: #333;
+}
+
+.main-header 
+{
+    background: linear-gradient(to right, #55efc4, #81ecec);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-header h1
+{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: #2c3e50; /* Darker color for heading */
+}
+
+.main-header p
+{
+    font-size: 1.2em;
+    line-height: 1.4;
+    opacity: 0.8;
+    color: #ffffff; /* Lighter color for text */
+}
+
+.main-header:hover 
+{
+    background: linear-gradient(to right, #81ecec, #55efc4);
+    transition: background 0.3s;
+}
+.header-content
+{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section 
+{
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.good-health 
+{
+    background: linear-gradient(to right, #a4d8e5, #4a90e2);
+}
+
+.bad-health
+{
+    background: linear-gradient(to right, #ffb6b9, #ff666b);
+}
+
+.factors
+{
+    background: linear-gradient(to right, #ffe6b5, #ffcb7a);
+}
+
+.awareness
+{
+    background: linear-gradient(to right, #efcffe, #b680d2);
+}
+
+.signs-grid,
+.factors-grid,
+.importance-grid 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sign,
+.factor,
+.importance-point
+{
+    background: linear-gradient(to bottom, #81a1c1, #c0c5ce);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer 
+{
+    background: linear-gradient(to right, #364f6b, #283b54);
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #383838;
+    border-color: #080808;
+}
+
+p 
+{
+    line-height: 1.8;
+}
+
+.main-label
+{
+    font-weight: extra bold;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
